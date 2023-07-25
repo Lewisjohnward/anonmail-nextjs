@@ -22,7 +22,7 @@ const Header = () => {
                 <h2 className="text-2xl font-bold text-center">Your Temporary Email Address</h2>
                 <div className="flex flex-col gap-4 md:flex-row">
 
-                    <div className="py-4 md:p-1 flex-grow flex items-center justify-between gap-8 pl-4 bg-gray-600 rounded-full">
+                    <div className="py-4 md:p-1 md:pl-4 flex-grow flex items-center justify-between gap-8 pl-4 bg-gray-600 rounded-full">
                         <p className="text-lg font-semibold">test@email.com</p>
                         <button className="hidden md:flex justify-center items-center w-12 h-12 text-4xl bg-gray-500 rounded-full">
                             <AiOutlineQrcode className="text-2xl"/>
