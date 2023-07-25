@@ -24,19 +24,19 @@ const Header = () => {
                     <div className="py-4 md:py-0 flex-grow flex items-center justify-between gap-8 p-1 pl-4 bg-gray-600 rounded-full">
                         <p className="text-lg font-semibold">test@email.com</p>
                         <button className="hidden md:flex justify-center items-center w-12 h-12 text-4xl bg-gray-500 rounded-full">
-                            <AiOutlineQrcode className=" text-2xl"/>
+                            <AiOutlineQrcode className="text-2xl"/>
                         </button>
                     </div>
                     <button className="hidden md:flex justify-center items-center w-12 h-12 bg-emerald-400 rounded-full hover:bg-gray-400">
-                        <AiFillCopy className=" text-2xl"/>
+                        <AiFillCopy className="text-2xl"/>
                     </button>
 
                     <div className="flex justify-around gap-10 md:hidden">
-                        <button className="flex-grow flex justify-around items-center py-2 bg-gray-500 rounded-full">
-                            <AiOutlineQrcode className=" text-2xl"/>
+                        <button className="flex-grow flex justify-around items-center py-2 px-2 bg-gray-500 rounded-full text-xl">
+                            <AiOutlineQrcode className="text-2xl"/>
                             QR Code
                         </button>
-                        <button className="flex-grow flex justify-around items-center py-2 bg-emerald-400 rounded-full hover:bg-gray-400">
+                        <button className="flex-grow flex justify-around items-center py-2 px-2 bg-emerald-400 rounded-full text-xl hover:bg-gray-400">
                             <AiFillCopy className=" text-2xl"/>
                             Copy
                         </button>
