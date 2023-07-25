@@ -21,12 +21,14 @@ const Header = () => {
             <div className="p-8 space-y-8 border border-gray-500 border-dashed">
                 <h2 className="text-2xl font-bold text-center">Your Temporary Email Address</h2>
                 <div className="flex flex-col gap-4 md:flex-row">
-                    <div className="py-4 md:py-0 flex-grow flex items-center justify-between gap-8 p-1 pl-4 bg-gray-600 rounded-full">
+
+                    <div className="py-4 md:p-1 flex-grow flex items-center justify-between gap-8 pl-4 bg-gray-600 rounded-full">
                         <p className="text-lg font-semibold">test@email.com</p>
                         <button className="hidden md:flex justify-center items-center w-12 h-12 text-4xl bg-gray-500 rounded-full">
                             <AiOutlineQrcode className="text-2xl"/>
                         </button>
                     </div>
+
                     <button className="hidden md:flex justify-center items-center w-12 h-12 bg-emerald-400 rounded-full hover:bg-gray-400">
                         <AiFillCopy className="text-2xl"/>
                     </button>
